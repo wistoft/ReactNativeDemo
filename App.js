@@ -13,7 +13,7 @@ import LoginPage from './pages/Login';
 // import RecordAudio from './pages/RecordAudio';
 import VideoPage from './pages/Video';
 // import PushNotificationPage from './pages/PushNotification';
-// import PermissionsPage from './pages/Permissions';
+import PermissionsPage from './pages/Permissions';
 import InternetPage from './pages/Internet';
 
 
@@ -42,9 +42,9 @@ import InternetPage from './pages/Internet';
 		Video: {
 			screen: VideoPage,
 		},
-		// Permissions: {
-		// 	screen: PermissionsPage,
-		// },
+		Permissions: {
+			screen: PermissionsPage,
+		},
 		Internet: {
 			screen: InternetPage,
 		},

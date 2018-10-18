@@ -7,22 +7,8 @@ import {
 
 import { createDrawerNavigator } from 'react-navigation';
 
+import LoginPage from "./pages/Login"
 
-	class LoginPage extends React.Component {
-		render() {
-			return (
-        <View>
-          <Text>Hello</Text>
-          <Button
-            title="print 1"
-            onPress={() => console.log(1)}
-          />
-          
-        </View>
-      )
-		}
-	}
-	
 //side menu
 
 	const DrawerNavigation = createDrawerNavigator({

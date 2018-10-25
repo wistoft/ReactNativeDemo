@@ -12,7 +12,7 @@ import CameraPage from './pages/Camera';
 import PlayAudio from './pages/PlayAudio';
 import RecordAudio from './pages/RecordAudio';
 import VideoPage from './pages/Video';
-// import PushNotificationPage from './pages/PushNotification';
+import PushNotificationPage from './pages/PushNotification';
 import PermissionsPage from './pages/Permissions';
 import InternetPage from './pages/Internet';
 
@@ -36,9 +36,9 @@ import InternetPage from './pages/Internet';
 		RecordAudio: {
 			screen: RecordAudio,
 		},
-		// PushNotification: {
-		// 	screen: PushNotificationPage,
-		// },
+		PushNotification: {
+			screen: PushNotificationPage,
+		},
 		Video: {
 			screen: VideoPage,
 		},

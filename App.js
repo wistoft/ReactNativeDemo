@@ -9,7 +9,7 @@ import { createDrawerNavigator } from 'react-navigation';
 
 import LoginPage from './pages/Login';
 import CameraPage from './pages/Camera';
-// import PlayAudio from './pages/PlayAudio';
+import PlayAudio from './pages/PlayAudio';
 // import RecordAudio from './pages/RecordAudio';
 import VideoPage from './pages/Video';
 // import PushNotificationPage from './pages/PushNotification';
@@ -30,9 +30,9 @@ import InternetPage from './pages/Internet';
 		Camera: {
 			screen: CameraPage,
 		},
-		// PlayAudio: {
-		// 	screen: PlayAudio,
-		// },
+		PlayAudio: {
+			screen: PlayAudio,
+		},
 		// RecordAudio: {
 		// 	screen: RecordAudio,
 		// },

@@ -40,6 +40,7 @@
 		3AA87B3C9C1740CA8B87D787 /* libRCTVideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 641F6590825B41EA9D7A1959 /* libRCTVideo.a */; };
 		22CCF2A59AA4415D8F858D07 /* libReactNativePermissions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A66D73D5A30F47DABA6D9D42 /* libReactNativePermissions.a */; };
 		8A4ABEA1294844C4A5902DA4 /* libRNImagePicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B84DA02A3342368EEB5D3C /* libRNImagePicker.a */; };
+		6D84D77529F74054A26ED253 /* libRNSound.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF9C1EE507D468283D56E63 /* libRNSound.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -351,6 +352,8 @@
 		A66D73D5A30F47DABA6D9D42 /* libReactNativePermissions.a */ = {isa = PBXFileReference; name = "libReactNativePermissions.a"; path = "libReactNativePermissions.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 		E3A28C5C13594683A011B9D2 /* RNImagePicker.xcodeproj */ = {isa = PBXFileReference; name = "RNImagePicker.xcodeproj"; path = "../node_modules/react-native-image-picker/ios/RNImagePicker.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		C5B84DA02A3342368EEB5D3C /* libRNImagePicker.a */ = {isa = PBXFileReference; name = "libRNImagePicker.a"; path = "libRNImagePicker.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		BED38FDBFFD24521B10832AD /* RNSound.xcodeproj */ = {isa = PBXFileReference; name = "RNSound.xcodeproj"; path = "../node_modules/react-native-sound/RNSound.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		BDF9C1EE507D468283D56E63 /* libRNSound.a */ = {isa = PBXFileReference; name = "libRNSound.a"; path = "libRNSound.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -381,6 +384,7 @@
 				3AA87B3C9C1740CA8B87D787 /* libRCTVideo.a in Frameworks */,
 				22CCF2A59AA4415D8F858D07 /* libReactNativePermissions.a in Frameworks */,
 				8A4ABEA1294844C4A5902DA4 /* libRNImagePicker.a in Frameworks */,
+				6D84D77529F74054A26ED253 /* libRNSound.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -570,6 +574,7 @@
 				24E4F31BE2314EECAE6D3446 /* RCTVideo.xcodeproj */,
 				4E408998E2C54DD8A1C2B4E8 /* ReactNativePermissions.xcodeproj */,
 				E3A28C5C13594683A011B9D2 /* RNImagePicker.xcodeproj */,
+				BED38FDBFFD24521B10832AD /* RNSound.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -1200,12 +1205,14 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-video\ios",
 					"$(SRCROOT)\..\node_modules\react-native-permissions\ios/**",
 					"$(SRCROOT)\..\node_modules\react-native-image-picker\ios",
+					"$(SRCROOT)\..\node_modules\react-native-sound\RNSound",
 				);
 			};
 			name = Debug;
@@ -1230,12 +1237,14 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-video\ios",
 					"$(SRCROOT)\..\node_modules\react-native-permissions\ios/**",
 					"$(SRCROOT)\..\node_modules\react-native-image-picker\ios",
+					"$(SRCROOT)\..\node_modules\react-native-sound\RNSound",
 				);
 			};
 			name = Release;
@@ -1261,6 +1270,7 @@
 					"$(SRCROOT)\..\node_modules\react-native-video\ios",
 					"$(SRCROOT)\..\node_modules\react-native-permissions\ios/**",
 					"$(SRCROOT)\..\node_modules\react-native-image-picker\ios",
+					"$(SRCROOT)\..\node_modules\react-native-sound\RNSound",
 				);
 			};
 			name = Debug;
@@ -1285,6 +1295,7 @@
 					"$(SRCROOT)\..\node_modules\react-native-video\ios",
 					"$(SRCROOT)\..\node_modules\react-native-permissions\ios/**",
 					"$(SRCROOT)\..\node_modules\react-native-image-picker\ios",
+					"$(SRCROOT)\..\node_modules\react-native-sound\RNSound",
 				);
 			};
 			name = Release;
@@ -1317,12 +1328,14 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-video\ios",
 					"$(SRCROOT)\..\node_modules\react-native-permissions\ios/**",
 					"$(SRCROOT)\..\node_modules\react-native-image-picker\ios",
+					"$(SRCROOT)\..\node_modules\react-native-sound\RNSound",
 				);
 			};
 			name = Debug;
@@ -1355,12 +1368,14 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-video\ios",
 					"$(SRCROOT)\..\node_modules\react-native-permissions\ios/**",
 					"$(SRCROOT)\..\node_modules\react-native-image-picker\ios",
+					"$(SRCROOT)\..\node_modules\react-native-sound\RNSound",
 				);
 			};
 			name = Release;
@@ -1392,12 +1407,14 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-video\ios",
 					"$(SRCROOT)\..\node_modules\react-native-permissions\ios/**",
 					"$(SRCROOT)\..\node_modules\react-native-image-picker\ios",
+					"$(SRCROOT)\..\node_modules\react-native-sound\RNSound",
 				);
 			};
 			name = Debug;
@@ -1429,12 +1446,14 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-video\ios",
 					"$(SRCROOT)\..\node_modules\react-native-permissions\ios/**",
 					"$(SRCROOT)\..\node_modules\react-native-image-picker\ios",
+					"$(SRCROOT)\..\node_modules\react-native-sound\RNSound",
 				);
 			};
 			name = Release;

@@ -13,6 +13,7 @@ import PlayAudio from './pages/PlayAudio';
 import RecordAudio from './pages/RecordAudio';
 import VideoPage from './pages/Video';
 import PushNotificationPage from './pages/PushNotification';
+import PushNotificationIOSPage from './pages/PushNotificationIOS';
 import PermissionsPage from './pages/Permissions';
 import InternetPage from './pages/Internet';
 
@@ -38,6 +39,9 @@ import InternetPage from './pages/Internet';
 		},
 		PushNotification: {
 			screen: PushNotificationPage,
+		},
+		PushNotificationIOS: {
+			screen: PushNotificationIOSPage,
 		},
 		Video: {
 			screen: VideoPage,

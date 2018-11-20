@@ -18,6 +18,7 @@ import PermissionsPage from './pages/Permissions';
 import InternetPage from './pages/Internet';
 import ViewFloatDown from './pages/ViewFloatDown';
 import ScrollViewFloatDown from './pages/ScrollViewFloatDown';
+import ScrollViewCenter from './pages/ScrollViewCenter';
 
 //on ready
 
@@ -58,6 +59,9 @@ import ScrollViewFloatDown from './pages/ScrollViewFloatDown';
 		},
 		ScrollViewFloatDown: {
 			screen: ScrollViewFloatDown,
+		},
+		ScrollViewCenter: {
+			screen: ScrollViewCenter,
 		},
 },{
 		initialRouteName: 'Login',

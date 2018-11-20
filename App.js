@@ -17,6 +17,7 @@ import PushNotificationIOSPage from './pages/PushNotificationIOS';
 import PermissionsPage from './pages/Permissions';
 import InternetPage from './pages/Internet';
 import ViewFloatDown from './pages/ViewFloatDown';
+import ScrollViewFloatDown from './pages/ScrollViewFloatDown';
 
 //on ready
 
@@ -54,6 +55,9 @@ import ViewFloatDown from './pages/ViewFloatDown';
 		},
 		ViewFloatDown: {
 			screen: ViewFloatDown,
+		},
+		ScrollViewFloatDown: {
+			screen: ScrollViewFloatDown,
 		},
 },{
 		initialRouteName: 'Login',

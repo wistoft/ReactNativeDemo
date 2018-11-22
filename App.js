@@ -16,7 +16,7 @@ import PushNotificationPage from './pages/PushNotification';
 import PushNotificationIOSPage from './pages/PushNotificationIOS';
 import PermissionsPage from './pages/Permissions';
 import InternetPage from './pages/Internet';
-
+import ViewFloatDown from './pages/ViewFloatDown';
 
 //on ready
 
@@ -52,7 +52,10 @@ import InternetPage from './pages/Internet';
 		Internet: {
 			screen: InternetPage,
 		},
-	},{
+		ViewFloatDown: {
+			screen: ViewFloatDown,
+		},
+},{
 		initialRouteName: 'Login',
 	}
 	);

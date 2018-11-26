@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<Image
+  source={
+    Object {
+      "uri": "TestURL",
+    }
+  }
+  style={
+    Array [
+      Object {
+        "margin": 10,
+        "marginBottom": 0,
+      },
+      Object {
+        "width": 100,
+      },
+    ]
+  }
+/>
+`;

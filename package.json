@@ -25,6 +25,7 @@
     "jest": "23.6.0",
     "jest-silent-reporter": "^0.1.1",
     "metro-react-native-babel-preset": "0.48.1",
+    "prettier": "1.15.2",
     "react-test-renderer": "16.5.0",
     "schedule": "0.4.0",
     "sinon": "^7.1.1"
@@ -34,6 +35,13 @@
     "transform": {
       "^.+\\.js$": "<rootDir>/node_modules/react-native/jest/preprocessor.js"
     },
-    "reporters": [["jest-silent-reporter", { "useDots": true }]]    
+    "reporters": [
+      [
+        "jest-silent-reporter",
+        {
+          "useDots": true
+        }
+      ]
+    ]
   }
 }

@@ -28,7 +28,6 @@
     "metro-react-native-babel-preset": "0.49.2",
     "prettier": "1.15.2",
     "react-test-renderer": "16.6.1",
-    "schedule": "0.4.0",
     "sinon": "^7.1.1"
   },
   "jest": {

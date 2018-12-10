@@ -3,6 +3,10 @@ import { Text, View, Button } from "react-native";
 
 import { createDrawerNavigator } from "react-navigation";
 
+import { Provider } from "react-redux";
+
+import createStore from "./redux/createStore";
+
 //demo of native modules
 import LoginPage from "./pages/Login";
 import CameraPage from "./pages/Camera";
@@ -13,6 +17,7 @@ import PushNotificationPage from "./pages/PushNotification";
 import PushNotificationIOSPage from "./pages/PushNotificationIOS";
 import PermissionsPage from "./pages/Permissions";
 import InternetPage from "./pages/Internet";
+import ReduxPage from "./pages/Redux";
 
 //demo of  Yoga design
 import ViewFloatDown from "./pages/design/ViewFloatDown";
@@ -56,6 +61,9 @@ const DrawerNavigation = createDrawerNavigator(
     Internet: {
       screen: InternetPage
     },
+    Redux: {
+      screen: ReduxPage
+    },
     ViewFloatDown: {
       screen: ViewFloatDown
     },
@@ -73,14 +81,20 @@ const DrawerNavigation = createDrawerNavigator(
     }
   },
   {
-    initialRouteName: "Login"
+    initialRouteName: "Redux"
   }
 );
 
 //component
 
+const store = createStore();
+
 export default class App extends React.Component {
   render() {
-    return <DrawerNavigation />;
+    return (
+      <Provider store={store}>
+        <DrawerNavigation />
+      </Provider>
+    );
   }
 }

@@ -19,6 +19,7 @@ import ViewFloatDown from "./pages/design/ViewFloatDown";
 import ScrollViewFloatDown from "./pages/design/ScrollViewFloatDown";
 import ScrollViewCenter from "./pages/design/ScrollViewCenter";
 import StrechView from "./pages/design/StrechView";
+import CenterView from "./pages/design/CenterView";
 
 //on ready
 
@@ -66,6 +67,9 @@ const DrawerNavigation = createDrawerNavigator(
     },
     StrechView: {
       screen: StrechView
+    },
+    CenterView: {
+      screen: CenterView
     }
   },
   {

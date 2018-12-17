@@ -3,6 +3,7 @@ import { Text, View, Button } from "react-native";
 
 import { createDrawerNavigator } from "react-navigation";
 
+//demo of native modules
 import LoginPage from "./pages/Login";
 import CameraPage from "./pages/Camera";
 import PlayAudio from "./pages/PlayAudio";
@@ -12,9 +13,12 @@ import PushNotificationPage from "./pages/PushNotification";
 import PushNotificationIOSPage from "./pages/PushNotificationIOS";
 import PermissionsPage from "./pages/Permissions";
 import InternetPage from "./pages/Internet";
+
+//demo of  Yoga design
 import ViewFloatDown from "./pages/design/ViewFloatDown";
 import ScrollViewFloatDown from "./pages/design/ScrollViewFloatDown";
 import ScrollViewCenter from "./pages/design/ScrollViewCenter";
+import StrechView from "./pages/design/StrechView";
 
 //on ready
 
@@ -59,6 +63,9 @@ const DrawerNavigation = createDrawerNavigator(
     },
     ScrollViewCenter: {
       screen: ScrollViewCenter
+    },
+    StrechView: {
+      screen: StrechView
     }
   },
   {
